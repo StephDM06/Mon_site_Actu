@@ -22,8 +22,7 @@ const Arti={
     titre:String,
     description:String,
     urlimage:String,
-    date:String,
-   
+    date:String,  
     lien:String,
   },
   };
@@ -43,6 +42,7 @@ const Arti={
       width:80%;
       padding-bottom: 3%;
       background-color: white;
+      border-radius: 20px;
      
      
       

@@ -14,8 +14,7 @@
           :titre="element.title"
           :date="element.publishedAt"
           :description="element.description"
-          :urlimage="element.urlToImage"
-        
+          :urlimage="element.urlToImage"        
           :lien="element.url"
       >
       </Arti>
@@ -88,5 +87,8 @@ export default Debut;
 #bouton{
   display: flex;
   justify-content: right;
+  width: 300px;
+  padding-right: 0px;
+  margin-bottom: 15px;
 }
 </style>
